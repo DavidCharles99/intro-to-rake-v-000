@@ -26,7 +26,7 @@ desc "migrate changes to database"
   end
 
 desc "inject faux data in db"
-  task :seed do 
+  task :seed do
     require_relative './db/seeds.rb'
   end
 end
